@@ -44,7 +44,7 @@ export default function Example() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Let's Get Started</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Thank you for completing your sign up</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
               integer elementum id sem. Arcu sed malesuada et magna.
