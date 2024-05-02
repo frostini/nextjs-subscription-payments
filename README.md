@@ -241,3 +241,7 @@ documented supabase workflows
 [https://ui.shadcn.com/docs/components/form](shadcn forms)
 https://ui.shadcn.com/docs/theming
 https://ui.shadcn.com/docs/components/typography
+
+<!-- React Typescript guide 
+https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events
+-->
