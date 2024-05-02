@@ -226,3 +226,18 @@ https://stripe.com/docs/testing
 Visa Credit Card
 4242424242424242
 any 3 digits, any future date
+
+to create machine generated seed data
+[https://docs.snaplet.dev/seed/reference/client](snaplet)
+
+documented supabase workflows
+[https://supabase.com/docs/guides/cli/seeding-your-database](seeding database)
+[https://supabase.com/docs/guides/cli/managing-environments](local migrations reference)
+[https://supabase.com/docs/guides/cli/local-development#link-your-project](general migration reference)
+[https://supabase.com/docs/guides/cli/getting-started](supabase local development commmands)
+
+[https://ui.shadcn.com/docs/installation/next](shadcn config)
+
+[https://ui.shadcn.com/docs/components/form](shadcn forms)
+https://ui.shadcn.com/docs/theming
+https://ui.shadcn.com/docs/components/typography

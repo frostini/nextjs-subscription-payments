@@ -5,7 +5,7 @@ import { SignOut } from '@/utils/auth-helpers/server';
 import { handleRequest } from '@/utils/auth-helpers/client';
 import Logo from '@/components/icons/Logo';
 import { usePathname, useRouter } from 'next/navigation';
-import { getRedirectMethod } from '@/utils/auth-helpers/settings';
+// import { getRedirectMethod } from '@/utils/auth-helpers/settings';
 import s from './Navbar.module.css';
 
 interface NavlinksProps {
@@ -13,8 +13,13 @@ interface NavlinksProps {
 }
 
 export default function Navlinks({ user }: NavlinksProps) {
-  const router = getRedirectMethod() === 'client' ? useRouter() : null;  
-  
+//   BUG: getting order of hooks error due to conditional user of hook https://stackoverflow.com/questions/57397395/react-has-detected-a-change-in-the-order-of-hooks-but-hooks-seem-to-be-invoked
+// commented out the conditional for server/client redirect as it is unnecessary due to flickr bug on server side redirects as specified in /auth-helpers/settings file
+// other useful article on conditional hooks: https://www.robinwieruch.de/react-conditional-hooks/
+  // const router = getRedirectMethod() === 'client' ? useRouter() : null;  
+
+  const router = useRouter();
+
   return (
         <div className="relative flex flex-row justify-between py-4 align-center md:py-6">
           <div className="flex items-center flex-1">
